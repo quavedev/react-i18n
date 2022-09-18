@@ -12,7 +12,8 @@
   "scripts": {
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "build-lib": "rollup -c && cp -r package.json dist/"
+    "build:lib": "rollup -c && cp -r package.json README.md dist/",
+    "publish:lib": "npm publish --access public ./dist"
   },
   "author": "Edimar Cardoso <edimarlnx@gmail.com>",
   "license": "MIT",
