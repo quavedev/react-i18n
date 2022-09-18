@@ -9,10 +9,7 @@ npm i @quave/react-i18n
 ```
 
 ```javascript
-import { ENGLISH, PORTUGUESE } from '../i18n/languages';
-import { LanguageChange } from '../i18n/Components/LanguageChange';
-import { useTranslate } from '../i18n/hooks/use-translate';
-import { Store } from '../i18n/state/Store';
+import { ENGLISH, PORTUGUESE, LanguageChange, useTranslate, Store } from '@quave/react-i18n';
 
 export const TERMS = {
     pageTitle: {
