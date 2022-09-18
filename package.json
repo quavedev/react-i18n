@@ -1,6 +1,6 @@
 {
   "name": "@quave/react-i18n",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React i18n components",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
